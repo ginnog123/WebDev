@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="AAMstyle.css">
+        <style>
+            body{
+                background-image: url('42.png');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+            }
+           .container1{
+                background: transparent;
+                box-shadow: 10px 10px 20px rgba(216, 94, 94, 0.6);
+                padding: 100px;
+                width: 30%;
+                position: relative;
+                left: 10%;
+                top: 50px;
+                
+            }
+        p{
+            font-size: 50%;
+        }
+        .ce{
+            position: relative;
+            background-color: rgb(241, 49, 49);
+            border-radius: 0px;
+            font-size: 120%;
+            bottom: -20px;
+
+        } 
+        
+        .log{
+            position: relative;
+            background-color: rgb(241, 49, 49);
+            border-radius: 0px;
+            font-size: 120%;
+            top: 70;
+            left: 20%;
+             bottom: -20px;
+
+        }
+        .log:hover{
+            background-color: rgb(248, 147, 147);
+        }
+        .ce:hover{
+            background-color: rgb(248, 147, 147);
+        }
+        .h{
+            position: relative;
+            left: 180px;
+            top: 60px;
+        }
+        .sam{
+            position: relative;
+            bottom: 35px;
+            color: white;
+            
+        }
+        .user1{
+            
+        }
+        .p{
+            position: relative;
+            top: 30px;
+        }
+        
+        .i1{
+            background-color: transparent;
+            padding: 30px;
+            width: 40%;
+            height: 30vh;
+            font-size: 100%;
+            position: relative;
+            left: 45%;
+            bottom: 300px;
+        }
+        .p2{
+            font-size: 80%;
+        }
+        .logo1{
+            position: absolute;
+            bottom: 580px;
+            left: 720px;
+        }
+        img{
+            opacity: 1;
+        }
+        label{
+            color: white;
+        }
+        @media (max-width: 480px) {
+            .header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .navbar {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+            }
+
+            .navbar a {
+                margin: 5px 0;
+                font-size: 14px;
+            }
+
+            .container1, .i1 {
+                width: 100%;
+                padding: 15px;
+            }
+
+            h1, h3 {
+                font-size: 16px;
+            }
+
+            .button1 {
+                flex-direction: column;
+            }
+
+            .button1 button {
+                width: 100%;
+                margin-bottom: 10px;
+            }
+        }
+        </style>
+    </head>
+
+    <body>
+        <div class="logo1">
+            <img src="tup-logo.png" alt="school logo" width= 7%>
+        </div>
+        <header class="header"> 
+            <a href="AAM.html" class="logo">Glenn</a>
+        <nav class="navbar">
+            <a href="AAM.html"><b>Home</b></a>
+            <a href="skill.html"><b>Hobbies</b></a>
+            <a href="edu.html"><b>Education</b></a>
+            <a href="About.html"><b>About</b></a>
+        </nav>
+           </header>
+           <div class="h">
+           <H1> Students Access Module</H1>
+           </div>
+           <div class="container1">
+           <div class="sam">
+            <h3>User Aunthentication</h3>
+        </div>
+        
+            <label class="u1"   for="user">Username:</label>
+            <p></p>
+            <p></p>
+            <input type="text" placeholder="Glenn Triunfo" name="user"><p> </p>
+            <label for="psw">Section:</label>
+            <p></p>
+            <p></p>
+            <input type="password" placeholder="BSCS-3B" name="psw">
+            <p></p>
+            <div class="button1">
+            <button class="ce"><p>Clear Entries</p></button>
+            <button class="log"><p>Login</p></button>
+        </div>
+        <div class="p">
+            <p>Forgot your password? Click here</p>
+            <p></p>
+        </div>
+        </div>
+
+        <div class="i1">
+            
+            <h1>Technological University of the Philippines</h1>
+            <p class="p2">Currently, I am a 3rd-year college student at the Technological University of the Philippines in Manila, pursuing a degree in Computer Science. The rigorous curriculum and hands-on projects have further deepened my knowledge and skills in the field. I am dedicated to excelling in my studies and look forward to contributing to the tech industry in the future.</p>
+            <p></p>
+        </div>
+
+    </body>
+</html>
